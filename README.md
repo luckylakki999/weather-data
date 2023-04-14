@@ -9,7 +9,7 @@ The libraries needed to run the program are
   if you are using python3 use
       pip3 install pandas
    else 
-      pip insrall pandas
+      pip install pandas
    
  To install scikit-learn
     if you are using python3 use
