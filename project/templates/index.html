@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Weather Prediction</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h1 class="mt-5">Weather Prediction</h1>
+		<form method="post" action="/" class="mt-5">
+			<div class="form-group">
+				<label for="temperature">Temperature (in degrees Celsius)</label>
+				<input type="number" class="form-control" name="temperature" id="temperature" step="0.01" required>
+			</div>
+			<div class="form-group">
+				<label for="apparent_temperature">Apparent Temperature (in degrees Celsius)</label>
+				<input type="number" class="form-control" name="apparent_temperature" id="apparent_temperature" step="0.01" required>
+			</div>
+			<div class="form-group">
+				<label for="humidity">Humidity (as a percentage)</label>
+				<input type="number" class="form-control" name="humidity" id="humidity" step="0.01" required>
+			</div>
+			<div class="form-group">
+				<label for="wind_speed">Wind speed (in meters per second)</label>
+				<input type="number" class="form-control" name="wind_speed" id="wind_speed" step="0.01" required>
+			</div>
+			<div class="form-group">
+				<label for="wind_bearing">Wind bearing (in degrees)</label>
+				<input type="number" class="form-control" name="wind_bearing" id="wind_bearing" step="0.01" required>
+			</div>
+			<div class="form-group">
+				<label for="visibility">Visibility (in kilometers)</label>
+				<input type="number" class="form-control" name="visibility" id="visibility" step="0.01" required>
+			</div>
+			<div class="form-group">
+				<label for="pressure">Pressure (in millibars)</label>
+				<input type="number" class="form-control" name="pressure" id="pressure" step="0.01" required>
+			</div>
+			<button type="submit" class="btn btn-primary">Predict</button>
+		</form>
+	</div>
+</body>
+</html>
